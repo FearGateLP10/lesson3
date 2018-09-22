@@ -1,0 +1,5 @@
+lesson3
+*.txt
+*.pyc
+*.log
+settings.py
