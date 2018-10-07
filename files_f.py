@@ -12,5 +12,5 @@ with open('referat.txt', 'r', encoding='utf-8') as f:
 	print(len(text.split()))
 	text_2 = text.replace('.', '!')
 
-	with open('referat2.txt', 'w', encoding='utf-8') as file:
-		file.write(text_2)
+with open('referat2.txt', 'w', encoding='utf-8') as file:
+	file.write(text_2)
